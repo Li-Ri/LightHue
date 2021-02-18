@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/main.css') }}"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lets Control your lights today</h1>
+    </header>
+    <main>
+      <ul>
+        <li class="button" id="button-on">
+          <a href="http://0.0.0.0:5000/lights" id="button-on">Lights on</a>
+        </li>
+        <li class="button" id="button-off">
+          <a href="http://0.0.0.0:5000/lightsOff" id="button-off">Lights off</a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
